@@ -11,7 +11,7 @@ import os
 from sklearn.preprocessing import StandardScaler
 from imblearn.combine import SMOTEENN
 from imblearn.over_sampling import SMOTE
-from imblearn.under_sampling import EditedNearestNeighbour 
+from imblearn.under_sampling import EditedNearestNeighbours 
 from collections import Counter
 
 
@@ -320,4 +320,5 @@ if __name__ == "__main__":
         print(f"   Total ML samples: {len(X_ml)}")
         print(f"   Discount eligible: {sum(y_ml)} ({sum(y_ml) / len(y_ml) * 100:.1f}%)")
         print(f"   Standard rate: {len(y_ml) - sum(y_ml)} ({(len(y_ml) - sum(y_ml)) / len(y_ml) * 100:.1f}%)")
+
         print("Command: python src/train_model.py")
