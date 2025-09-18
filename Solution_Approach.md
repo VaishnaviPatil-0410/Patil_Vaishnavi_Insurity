@@ -44,7 +44,10 @@
 
 
 
-
+<img width="1918" height="1013" alt="q" src="https://github.com/user-attachments/assets/d0bc0645-f51e-4d44-9f61-354d138be232" />
+<img width="1918" height="917" alt="e" src="https://github.com/user-attachments/assets/587cb2f0-85d5-4919-a867-88fb56440ce6" />
+<img width="1918" height="926" alt="w" src="https://github.com/user-attachments/assets/0e86b2f8-d985-47ff-bc0f-1b48f4c963c1" />
 
 ***This is what the running API should look like :*** 
+
 
