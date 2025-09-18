@@ -1,0 +1,14 @@
+# Core Libraries
+pandas
+numpy
+scikit-learn
+xgboost
+
+# Web App & Plotting
+streamlit
+plotly
+
+# APIs & Utilities
+requests
+joblib
+shap
