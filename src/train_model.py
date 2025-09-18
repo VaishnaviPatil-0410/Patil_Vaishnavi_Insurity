@@ -346,12 +346,10 @@ def main():
     print(f"   Overfitting Gap: {results['overfitting_gap']:.1%}")
     print(f"   Cross-Validation: {results['cv_scores'].mean():.1%} ± {results['cv_scores'].std():.1%}")
 
-    print("\nNext steps:")
-    print("1. Run 'python src/api.py' to start the API")
-    print("2. Run 'streamlit run src/dashboard.py' to start the dashboard")
 
     return model, results
 
 
 if __name__ == "__main__":
+
     trained_model, training_results = main()
