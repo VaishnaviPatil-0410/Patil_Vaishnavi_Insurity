@@ -76,7 +76,7 @@ pip install -r requirements.txt
 6. Start the FastAPI service. Open a new terminal, navigate to the project folder, activate the virtual environment, and run:
    python -m uvicorn src.api:app --reload --host 0.0.0.0 --port 8000
 
-7. Start the Streamlit dashboard:
+7. Start the Streamlit dashboard from the project directory on a new terminal or from the terminal of step 5:
    streamlit run src/dashboard.py
 
 ```
@@ -178,3 +178,4 @@ This project is intended for academic and demonstration purposes. Please review 
 
 
 For questions or support, please contact [vaishnavirpatil0410@gmail.com]
+
